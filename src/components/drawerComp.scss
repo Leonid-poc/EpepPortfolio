@@ -1,0 +1,27 @@
+ul.drawer {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    font-size: 32px;
+    a:not(.linkBut) {
+        transition: all .3s ease-in-out;
+        color: white;
+        text-decoration: none;
+        &:hover {
+            color: gray;
+        }
+    }
+    .linkBut {
+        transition: all .3s ease-in-out;
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        padding: .5em;
+        border-radius: 1.5em;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.29);
+        }
+    }
+}

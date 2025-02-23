@@ -1,5 +1,5 @@
 import Header from "./header/Header";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Tokenomics from "./pages/Tokenomics";
 import Roadmap from "./pages/Roadmap";
